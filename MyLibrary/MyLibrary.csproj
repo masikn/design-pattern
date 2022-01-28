@@ -41,10 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DecoyDuck.cs" />
+    <Compile Include="Flyable.cs" />
+    <Compile Include="Quackable.cs" />
     <Compile Include="RedHeadDuck.cs" />
     <Compile Include="MallardDuck.cs" />
     <Compile Include="Duck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RubberDuck.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
